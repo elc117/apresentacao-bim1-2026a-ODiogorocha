@@ -146,3 +146,32 @@ Esses dois conceitos atuam juntos durante a execução:
 
 ![Execução Prolog](./imgs/prolog_execution.gif)
 
+
+### Parte prática
+```prolog
+actor(1, song_kang_ho).
+actor(1, lee_sun_kyun).
+
+genre(1, drama).
+
+drama_actor(A) :- actor(M, A), genre(M, drama).
+```
+
+### Consulta
+```
+?- drama_actor(A).
+```
+
+### Palavras-chave do trace:
+Call -> tentativa de executar um objetivo<br>
+Exit -> unificação foi bem sucedida<br>
+Redo -> Backtracking<br>
+
+![Trace](trace.png)
+
+
+
+### Fontes
+https://www.dai.ed.ac.uk/groups/ssp/bookpages/quickprolog/node11.html<br>
+https://www.tutorialspoint.com/prolog/prolog_backtracking.htm
+
