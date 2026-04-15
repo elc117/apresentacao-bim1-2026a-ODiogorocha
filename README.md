@@ -167,7 +167,7 @@ Call -> tentativa de executar um objetivo<br>
 Exit -> unificação foi bem sucedida<br>
 Redo -> Backtracking<br>
 
-![Trace](/home/diogo/Documentos/codigos/paradigmas-de-programacao/apresentacao-bim1-2026a-ODiogorocha/imgs/trace.png)
+![img](/home/diogo/Documentos/codigos/paradigmas-de-programacao/apresentacao-bim1-2026a-ODiogorocha/imgs/trace.png)
 
 
 
